@@ -1,0 +1,1 @@
+openssl x509 -inform DES -in 192.168.100.3.cer -out 192.168.100.3.pem -text
