@@ -33,7 +33,7 @@ func main() {
 	transport := &http.Transport{TLSClientConfig: tlsConfig}
 	client := &http.Client{Transport: transport}
 
-	url := "https://192.168.100.3"
+	url := "https://pallat.localhost"
 
 	req, _ := http.NewRequest("GET", url, nil)
 
